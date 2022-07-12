@@ -1,0 +1,38 @@
+.color-primary{ 
+    color:red;
+}
+
+.font-50{
+    font-size:50px;
+}
+
+.select-style1{
+    height: 40px; 
+    font-size: 20px;
+    color: blue;
+}
+
+.tb-head>tr>td {
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+}
+
+.tb-body>tr>td {
+    border: 1px solid #000;
+
+}
+
+p { /* 이러면 모든 p에 적용된다.*/
+    background: yellowgreen;
+    color: darkgreen;
+}
+
+/* * : 전체 선택자
+p : 태그 선택자. 태그 명을 가져다 놓으면 태그에 적용. 
+.class1 : class명 넣어서 만들수 있음
+#pid : id값. 
+div ul : 하위선택자. 그 선택된 선택자 밑에 있는 모든 하위선택자는 이 clss 넣겠다 
+div>ul : 자식선택자. 위와 달리 하나하나 찾아가겠다는 의미
+*/
